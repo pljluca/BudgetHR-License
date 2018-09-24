@@ -1,0 +1,6 @@
+LicenseParameter:
+LOAD
+	22 as [LicenseParameter.Codice Azienda]
+	,'LYRECO ITALIA SRL' as [LicenseParameter.Azienda]
+	,Num(MakeDate(2019, 1, 3)) as [LicenseParameter.Data Fine Licenza]
+AutoGenerate 1;
