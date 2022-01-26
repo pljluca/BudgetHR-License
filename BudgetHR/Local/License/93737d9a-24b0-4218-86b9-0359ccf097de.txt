@@ -1,6 +1,0 @@
-LicenseParameter:
-LOAD
-	22 as [LicenseParameter.Codice Azienda]
-	,'LYRECO ITALIA SRL' as [LicenseParameter.Azienda]
-	,Num(MakeDate(2020, 1, 1)) as [LicenseParameter.Data Fine Licenza]
-AutoGenerate 1;
