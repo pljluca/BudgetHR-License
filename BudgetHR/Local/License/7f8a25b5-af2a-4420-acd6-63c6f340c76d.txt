@@ -1,6 +1,6 @@
 LicenseParameter:
 LOAD
 	3000 as [LicenseParameter.Codice Azienda]
-	,'BUDGET SCARPE & SCARPE S.P.A.' as [LicenseParameter.Azienda]
+	,'SCARPE & SCARPE S.P.A.' as [LicenseParameter.Azienda]
 	,Num(MakeDate(2025, 1, 1)) as [LicenseParameter.Data Fine Licenza]
 AutoGenerate 1;
